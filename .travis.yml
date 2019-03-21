@@ -6,3 +6,4 @@ deploy:
 api_key: $HEROKU_KEY'
 app: travici-review-sr
 on: master
+strategy: git
