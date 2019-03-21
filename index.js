@@ -3,13 +3,13 @@ const express = require('express');
 const app = express();
 //CREATING A SIMPLE GET REQUEST 
 
-app.get('/ping',(req, res)=>{
+app.get('/ping', (req, res) => {
     res.status(200);
-    res.json({'pong': '🏓'});
+    res.json({'pong': true});
 });
 
 const port = 5020;
-app.listen(port, ()=>{
+app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 })
 
