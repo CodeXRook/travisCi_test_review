@@ -1,4 +1,4 @@
-const express = require('express')
+const express = require('express');
 //npm install --save express/ express required for package json
 const app = express();
 //CREATING A SIMPLE GET REQUEST 
@@ -8,8 +8,8 @@ app.get('/ping',(req, res)=>{
     res.json({'pong': '🏓'});
 });
 
-const port = 5011;
-app.listen(port,()=>{
+const port = 5020;
+app.listen(port, ()=>{
     console.log(`Listening on port ${port}`);
 })
 
