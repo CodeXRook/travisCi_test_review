@@ -4,5 +4,5 @@ const app = express();
 //CREATING A SIMPLE GET REQUEST 
 
 app.get('/ping',(req, res)=>{
-    
+    res.status(200);
 })
