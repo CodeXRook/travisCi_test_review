@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/ping',(req, res)=>{
     res.status(200);
-    res.json({'pong': true});
+    res.json({'pong': '🏓'});
 });
 
 const port = 5001;
