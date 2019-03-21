@@ -10,5 +10,5 @@ app.get('/ping',(req, res)=>{
 
 const port = 5001;
 app.listen(port,()=>{
-    console.log
+    console.log(`Listening on port ${port}`);
 })
