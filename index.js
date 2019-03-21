@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/ping', (req, res) => {
     res.status(200);
-    res.json({'pong': true});
+    res.json({'pong': '🏓'});
 });
 
 const port = 5020;
@@ -17,3 +17,4 @@ app.listen(port, () => {
 //CREATED EXPRESS  
 //CREATE EXPRESS APP
 //ADD ROUTE ADDED GET ROUTE CALLED PING WHICH WILL RESPONDE TO PONG AND ADD A PORT ROUTE
+//ADDED A SLASH AFTER PORT ROUTE TO GET EXACT FILE PATH eg.localhost:5020/ping
