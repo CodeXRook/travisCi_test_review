@@ -8,6 +8,7 @@ app.get('/ping',(req, res)=>{
     res.json({'pong': true});
 });
 
-app.listen(5001,()=>{
-    
+const port = 5001;
+app.listen(port,()=>{
+    console.log
 })
