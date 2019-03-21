@@ -7,3 +7,7 @@ app.get('/ping',(req, res)=>{
     res.status(200);
     res.json({'pong': true});
 });
+
+app.listen(5001,()=>{
+    
+})
